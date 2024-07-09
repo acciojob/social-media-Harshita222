@@ -12,24 +12,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.6", // रख सकते हैं नया संस्करण
+    "@reduxjs/toolkit": "^2.2.6", 
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^11.0.4", // अपडेटेड संस्करण
+    "@testing-library/react": "^11.0.4", 
     "@testing-library/user-event": "^7.1.2",
     "classnames": "^2.2.6",
     "css-loader": "^4.3.0",
     "cypress": "^9.5.0",
-    "date-fns": "^3.6.0", // नया संस्करण
-    "faker": "^6.6.6", // नया संस्करण
+    "date-fns": "^3.6.0", 
+    "faker": "^6.6.6", 
     "jest-junit": "^11.1.0",
-    "miragejs": "*", // सभी संस्करण
-    "react": "^18.3.1", // नया संस्करण
-    "react-dom": "^18.3.1", // नया संस्करण
-    "react-redux": "^7.2.9", // नया संस्करण
-    "react-router-dom": "^6.24.1", // नया संस्करण
+    "miragejs": "*", 
+    "react": "^18.3.1", 
+    "react-dom": "^18.3.1", 
+    "react-redux": "^7.2.9", 
+    "react-router-dom": "^6.24.1", 
     "seedrandom": "^3.0.5",
     "style-loader": "^1.2.1",
-    "txtgen": "^3.0.7", // नया संस्करण
+    "txtgen": "^3.0.7", 
     "webpack-cli": "^3.3.12"
   },
   "jest": {
@@ -45,15 +45,15 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.24.7", // नया संस्करण
+    "@babel/core": "^7.24.7", 
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
     "@babel/plugin-proposal-optional-chaining": "^7.21.0",
-    "@babel/preset-env": "^7.24.7", // नया संस्करण
-    "@babel/preset-react": "^7.24.7", // नया संस्करण
+    "@babel/preset-env": "^7.24.7", 
+    "@babel/preset-react": "^7.24.7", 
     "@testing-library/react": "^11.0.4",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.3.0", // नया संस्करण
+    "babel-loader": "^8.3.0", 
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.11.0",
