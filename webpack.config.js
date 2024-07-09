@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 // const path = require("path");
 // const HtmlWebpackPlugin= require('html-webpack-plugin');
 // module.exports = {
@@ -40,7 +39,7 @@
 //         extensions: ['.js', '.jsx'],
 //     }
 // };
->>>>>>> origin/master
+
 const path = require("path");
 const HtmlWebpackPlugin= require('html-webpack-plugin');
 module.exports = {
@@ -80,8 +79,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx'],
     }
-<<<<<<< HEAD
+
 };
-=======
+
 };
->>>>>>> origin/master
+
