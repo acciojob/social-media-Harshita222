@@ -2,8 +2,13 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
+<<<<<<< HEAD
 import { selectUserById } from '../users/usersSlice'
 import { selectPostsByUser } from '../posts/postsSlice'
+=======
+import { selectUserById } from '../users/userSlice'
+import { selectPostsByUser } from '../posts/postSlice'
+>>>>>>> origin/master
 
 export const UserPage = ({ match }) => {
   const { userId } = match.params

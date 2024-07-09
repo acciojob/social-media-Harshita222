@@ -8,6 +8,7 @@ import {
 
 import { Navbar } from './app/Navbar'
 
+<<<<<<< HEAD
 import { PostsList } from './features/posts/PostsList'
 import { AddPostForm } from './features/posts/AddPostForm'
 import { EditPostForm } from './features/posts/EditPostForm'
@@ -15,6 +16,17 @@ import { SinglePostPage } from './features/posts/SinglePostPage'
 import { UsersList } from './features/users/UsersList'
 import { UserPage } from './features/users/UserPage'
 import { NotificationsList } from './features/notifications/NotificationsList'
+=======
+// import { PostsList } from './features/posts/PostsList'
+import { PostsList } from './features/posts/PostList'
+import { AddPostForm } from './features/posts/AddPostForm'
+import { EditPostForm } from './features/posts/EditPostForm'
+import { SinglePostPage } from './features/posts/SinglePostPage'
+// import { UsersList } from './features/users/UsersList'
+import { UserList } from './features/users/UserList'
+import { UserPage } from './features/users/UserPage'
+import { NotificationsList } from './features/notifications/NotificationList'
+>>>>>>> origin/master
 
 function App() {
   return (

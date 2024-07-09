@@ -2,8 +2,14 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { unwrapResult } from '@reduxjs/toolkit'
 
+<<<<<<< HEAD
 import { addNewPost } from './postsSlice'
 import { selectAllUsers } from '../users/usersSlice'
+=======
+import { addNewPost } from './postSlice'
+// import { selectAllUsers } from '../users/usersSlice'
+import { selectAllUsers } from '../users/userSlice'
+>>>>>>> origin/master
 
 export const AddPostForm = () => {
   const [title, setTitle] = useState('')

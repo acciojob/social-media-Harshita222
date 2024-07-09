@@ -5,7 +5,12 @@ import { Link } from 'react-router-dom'
 import { PostAuthor } from './PostAuthor'
 import { TimeAgo } from './TimeAgo'
 import { ReactionButtons } from './ReactionButtons'
+<<<<<<< HEAD
 import { selectPostById } from './postsSlice'
+=======
+// import { selectPostById } from './postsSlice'
+import { selectUserById } from '../users/userSlice'
+>>>>>>> origin/master
 
 export const SinglePostPage = ({ match }) => {
   const { postId } = match.params

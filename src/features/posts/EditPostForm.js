@@ -2,7 +2,12 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 
+<<<<<<< HEAD
 import { postUpdated, selectPostById } from './postsSlice'
+=======
+// import { postUpdated, selectPostById } from './postsSlice'
+import {postUpdate, selectPostById } from './postSlice'
+>>>>>>> origin/master
 
 export const EditPostForm = ({ match }) => {
   const { postId } = match.params

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
@@ -10,6 +11,21 @@ import { fetchUsers } from './features/users/usersSlice'
 import './api/server'
 
 store.dispatch(fetchUsers())
+=======
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import store from './app/store';
+import { Provider } from 'react-redux';
+
+import { fetchUsers } from './features/users/userSlice';
+
+import './api/server'; // Ensure this imports your server setup correctly
+
+store.dispatch(fetchUsers());
+>>>>>>> origin/master
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,4 +34,8 @@ ReactDOM.render(
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
+<<<<<<< HEAD
 )
+=======
+);
+>>>>>>> origin/master
